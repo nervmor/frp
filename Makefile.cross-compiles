@@ -2,7 +2,7 @@ export PATH := $(PATH):`go env GOPATH`/bin
 export GO111MODULE=on
 LDFLAGS := -s -w -H windowsgui
 
-os-archs=darwin:amd64 linux:amd64 windows:amd64
+os-archs=windows:amd64
 
 all: build
 

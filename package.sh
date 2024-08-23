@@ -17,7 +17,7 @@ make -f ./Makefile.cross-compiles
 rm -rf ./release/packages
 mkdir -p ./release/packages
 
-os_all='linux windows darwin'
+os_all='windows'
 arch_all='amd64'
 extra_all='_ hf'
 

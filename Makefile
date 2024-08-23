@@ -1,6 +1,6 @@
 export PATH := $(PATH):`go env GOPATH`/bin
 export GO111MODULE=on
-LDFLAGS := -s -w -H windowsgui
+LDFLAGS := -s -w
 
 all: env fmt build
 
